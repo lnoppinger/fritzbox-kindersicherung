@@ -9,7 +9,7 @@ services:
         restart: on-failure
         environment:
             - URL=http://192.168.178.1   # URL für die FRITZ!Box Benutzeroberfläche
-            - BENTUZERNAME=fritz3957     # Übernehmen aus FRITZ!Box Benutzeroberfläche -> System -> FRITZ!Box-Benutzer
+            - BENUTZERNAME=fritz3957     # Übernehmen aus FRITZ!Box Benutzeroberfläche -> System -> FRITZ!Box-Benutzer
             - PASSWORD=supergeheimespasswort
             - PROFIL=Fernseher           # Name der Gruppe die Eingeschränkt werden soll
         ports:
